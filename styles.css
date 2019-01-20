@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation Menu */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+#nav a {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+}
+
+.left-half {
+    display: flex;
+    align-items: center;
+}
+
+.left-half a {
+    padding-left: 23px;
+}
+
+.left-half a:hover {
+    text-decoration: underline;
+}
+
+.right-half {
+    display: flex;
+    align-items: center;
+}
+
+.right-half a {
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.right-half a:hover {
+    text-decoration: underline;
+}
+
+.right-half a img {
+    opacity: 0.6;
+}
+
+.right-half a img:hover {
+    opacity: 1;
+}
+
+.right-half button {
+    margin-right: 30px;
+    padding: 8px 13px;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+    background-color: #3385ff;
+    border-radius: 2px;
+}
+
+/* Landing Page */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    padding-top: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
